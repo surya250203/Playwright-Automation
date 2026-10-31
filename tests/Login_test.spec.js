@@ -22,7 +22,7 @@ test('test', async ({ page }) => {
   await otpInputs.nth(3).fill('5');
   await otpInputs.nth(4).fill('4');
   await otpInputs.nth(5).fill('5');
-  await page.waitForTimeout(5000);
+  await page.waitForTimeout(4000);
   await page.getByRole('button', { name: 'Continue' }).click();
   await page.getByLabel('Success', { exact: true }).click();
 });
