@@ -5,7 +5,7 @@ test('test', async ({ page }) => {
   await page.goto('https://shop-dev.viindhyagold.com/');
   await page.getByRole('button', { name: 'Log In/Sign Up' }).click();
   await page.getByRole('textbox', { name: 'Enter Mobile Number' }).click();
-  await page.getByRole('textbox', { name: 'Enter Mobile Number' }).fill('7997547799');
+  await page.getByRole('textbox', { name: 'Enter Mobile Number' }).fill('9502151677');
   await page.getByRole('button', { name: 'Get OTP' }).click();
   //await page.getByRole('textbox').first().click();
   //await page.getByRole('textbox').first().fill('4');
